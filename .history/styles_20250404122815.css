@@ -1,0 +1,68 @@
+
+/* Need to put root colour hexes here*/
+/* Need to put typeface config here*/
+.navbar {
+    background-color: green;
+    padding: 30px 0 30px 0;
+    margin: 0 auto;
+    width: 90%;
+    position: sticky;
+    display: block;
+    top: 0;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: green;
+    padding: 30px 0 30px 0;
+    margin: 0 auto;
+    width: 90%;
+    bottom: 0;
+}
+
+.container {
+    background-color: red;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 1rem; /* Adjust as needed */
+  }
+
+  .row-8 {
+    background-color: turquoise;
+    display: grid;
+    grid-row: 8fr; 
+  }
+
+  .row-6 {
+    background-color: wheat;
+    display: grid;
+    grid-row: 1 2; 
+  }
+
+  .row-4 {
+    background-color: purple;
+    display: grid;
+    grid-row: 1/1; 
+  }
+
+  
+
+  
+  
+  .col-8 {
+    background-color: blue;
+    grid-column: 1/-1; /* Full width column */
+  }
+  
+  .col-4 {
+    background-color: orange;
+    grid-column: 4fr; /* Half width column */
+  }
+  
+  .col-2 {
+    background-color: yellow;
+    grid-column: 2fr; /* One-third width column */
+  }

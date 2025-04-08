@@ -1,0 +1,116 @@
+/* For component styling, colours, typefaces, etc. */
+
+:root{
+    --night_primary: #A4C0FF;
+    --night_secondary: #FFCB3E;
+    --night_tertiary: #D0D0D0;
+    --night_success:#A4D588;
+    --night_warning:#FFDFA8;
+    --night_error:#FFA8A8;
+    --night_bg:#191B21;
+    --night_text:#FFFDF9;
+
+    --day_primary: #546EB0;
+    --day_secondary: #FFB800;
+    --day_tertiary: #666666;
+    --day_success:#447E5A;
+    --day_warning:#FFBC00;
+    --day_error:#C33A28;
+    --day_bg:#191B21;
+    --day_text:#FFFDF9;
+
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+
+    --h1: 49px;
+    --h2: 39px;
+    --h3: 31px;
+    --h4: 25px;
+    --body: 20px;
+    --caption: 16px;
+    --label: 13px;
+
+    
+}
+
+
+/* Need to put typeface config here*/
+
+h1 {
+    font-size: var(--h1);
+    font-weight: 400;
+}
+
+h2 {
+    font-size: var(--h2);
+    font-weight: 400;
+}
+
+h3 {
+    font-size: var(--h3);
+    font-weight: 400;
+}
+
+h4 {
+    font-size: var(--h4);
+    font-weight: 400;
+}
+
+p {
+    font-size: var(--caption);
+    font-weight: 400;
+    color: var(--night_primary);
+}
+
+.caption {
+    font-size: var(--caption);
+    font-weight: 400;
+}
+
+.label {
+    font-size: var(--label);
+    font-weight: 400;
+}
+
+
+.padded{
+    padding: 5px 0 5px 0;
+}
+
+.navtext{
+    color: var(--night_secondary);
+    font-size: var(--caption);
+    text-decoration: none;
+    padding: 15px 0 15px 0;
+}
+
+.navtext:hover{
+    color: #caa131;
+    text-decoration: underline;
+}
+/* Alter this text based on typeface configs */
+/* .teachers-regular {
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+  /* Text + alignment */
+  .left {
+    text-align: left;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .justified {
+    text-align: justify;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  

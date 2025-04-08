@@ -1,0 +1,59 @@
+
+/* Need to put root colour hexes here*/
+/* Need to put typeface config here*/
+.navbar {
+    background-color: green;
+    padding: 30px 0 30px 0;
+    margin: 0 auto;
+    width: 90%;
+    position: sticky;
+    display: block;
+    top: 0;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: green;
+    padding: 30px 0 30px 0;
+    margin: 0 auto;
+    width: 90%;
+    bottom: 0;
+}
+
+.container {
+    background-color: red;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 1rem; /* Adjust as needed */
+  }
+
+
+  .full-span-card {
+    background-color: blue;
+    display: grid;
+    grid-column: 1/span 4; /* Full width column */
+    grid-row: 1fr;
+  }
+
+  .quarter-card {
+    background-color: yellow;
+    display: grid;
+    grid-column: span 1; /* Full width column */
+    grid-row: 1fr;
+  }
+
+  .half-card {
+    background-color: purple;
+    display: grid;
+    grid-column: span 2; /* Full width column */
+    grid-row: 1fr;
+  }
+
+  .center {
+    grid-column: 1;
+  }
+
+  

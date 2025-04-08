@@ -1,0 +1,24 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* 12 columns */
+    gap: 1rem; /* Adjust as needed */
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: 1fr; /* Stack columns vertically by default */
+  }
+  
+  .col-12 {
+    grid-column: span 12; /* Full width column */
+  }
+  
+  .col-6 {
+    grid-column: span 6; /* Half width column */
+  }
+  
+  .col-4 {
+    grid-column: span 4; /* One-third width column */
+  }

@@ -1,0 +1,317 @@
+
+/* /////////////////////////////////// GRID BODY CONFIGS ///////////////////////////////////*/
+
+body{
+  background-color: var(--night_bg);
+  background-image: url(../img/cartographer.png);
+  background-attachment: fixed;
+}
+.navbar {
+    background-color: #282E39;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 15px;
+    opacity: 0.99;
+    transition: all 0.25s ease-in-out;
+}
+
+.navbar:hover{
+  opacity: 100%;
+}
+
+.footer {
+    background-color: #282E39;
+    margin: 0 auto;
+    width: 100%;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 15px;
+}
+
+  .logocontainer {
+    background-color: red;
+    width: 90%;
+    margin: 15px auto 15px;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.2fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem; 
+  }
+
+  .colourcontainer {
+    background-color: red;
+    width: 90%;
+    margin: 15px auto 15px;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem; 
+  }
+
+  .header-card {
+    background-color: lightskyblue;
+    display: grid;
+    grid-column: 1/ span 12; 
+    grid-row: 1fr;
+    border-radius: 15px;
+    align-items: center;
+  }
+
+  .full-span-card {
+    background-color: blue;
+    display: grid;
+    grid-column: 1/ span 12; 
+    grid-row: 1fr;
+    border-radius: 15px;
+  }
+
+  .most-span-card {
+    background-color: pink;
+    display: grid;
+    grid-column: span 8; 
+    grid-row: 1fr;
+    border-radius: 15px;
+  }
+
+  .half-card {
+    background-color: purple;
+    display: grid;
+    grid-column: span 6; 
+    grid-row: 1fr;
+    border-radius: 15px;
+  }
+
+  .quarter-card {
+    background-color: yellow;
+    display: grid;
+    grid-column: span 3;
+    grid-row: 2fr;
+    border-radius: 15px;
+  }
+
+  .mini-card {
+    background-color: pink;
+    display: grid;
+    grid-column: span 2; 
+    grid-row: 2fr;
+    border-radius: 15px;
+  }
+
+  .tiny-card {
+    background-color: orange;
+    display: grid;
+    grid-column: span 1; 
+    grid-row: 2fr;
+    border-radius: 15px;
+  }
+
+  .span-shade{
+    width: 100%;
+    background-color: var(--night_bg);
+  }
+
+  /* /////////////////////////////////// GRID MISC CONFIGS ///////////////////////////////////*/
+  .invis {
+    background-color: transparent;
+  }
+
+  .lined {
+    display: inline-block;
+  }
+
+  .navlist {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  
+
+/* /////////////////////////////////// CONTENT + ALIGNMENT CONFIGS ///////////////////////////////////*/
+
+  .logosizing{
+    width: 200px;
+    height: auto;
+  }
+
+  .byside{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bystack{
+    display:flex;
+    align-items: center;
+  }
+
+  .spaced {
+    justify-content: center;
+  }
+
+  /* /////////////////////////////////// LOGO PAGE CONFIGS ///////////////////////////////////*/
+
+  .logosizing{
+    width: 175px;
+    height: auto;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .logosizing:hover{
+    width: 200px;
+  }
+  /* /////////////////////////////////// COLOUR PAGE SQUARE CONFIGS ///////////////////////////////////*/
+
+  /*
+    --night_primary: #A4C0FF;
+    --night_secondary: #FFCB3E;
+    --night_tertiary: #D0D0D0;
+    --night_success:#A4D588;
+    --night_warning:#FFDFA8;
+    --night_error:#FFA8A8;
+    --night_bg:#191B21;
+    --night_text:#FFFDF9;
+
+    --day_primary: #546EB0;
+    --day_secondary: #FFB800;
+    --day_tertiary: #666666;
+    --day_success:#447E5A;
+    --day_warning:#FFBC00;
+    --day_error:#C33A28;
+    --day_bg:#191B21;
+    --day_text:#FFFDF9;
+    */
+    
+  .colours{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px 0 30px;
+  }
+
+  .colourbox{
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.25s ease-in-out;
+  }
+
+/* Colour page square colours */
+
+ #day1{
+  background-color: var(--day_primary);
+ }
+
+ #day2{
+  background-color: var(--day_secondary);
+ }
+
+ #day3{
+  background-color: var(--day_tertiary);
+ }
+
+ #daybg{
+  background-color: var(--day_bg);
+ }
+ 
+ #daybgtext{
+  background-color: var(--day_text);
+ }
+
+ #night1{
+  background-color: var(--night_primary);
+ }
+
+ #night2{
+  background-color: var(--night_secondary);
+ }
+
+ #night3{
+  background-color: var(--night_tertiary);
+ }
+
+ #nightbg{
+  background-color: var(--night_bg);
+ }
+ 
+ #nightbgtext{
+  background-color: var(--night_text);
+ }
+
+ /* Colour page warning square configs */
+
+ #successday1{
+  background-color: var(--day_success);
+ }
+
+ #warnday2{
+  background-color: var(--day_warning);
+ }
+
+ #errorday3{
+  background-color: var(--day_error);
+ }
+
+ #successnight1{
+  background-color: var(--night_success);
+ }
+
+ #warnnight2{
+  background-color: var(--night_warning);
+ }
+
+ #errornight3{
+  background-color: var(--night_error);
+ }
+
+ /* Colour page square effects */
+ .colourbox:hover{
+  width: 110px;
+  height: 110px;
+  border-radius: 90px;
+  }
+
+  /* Colour page contrast image effects */
+
+  .contrastbox{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px 0 30px;
+  }
+
+  #contrastimg{
+    width: 450px;
+    height: auto;
+    opacity: 0.2;
+    transition: all 0.25s ease-in-out;
+  }
+
+  #contrastimg:hover{
+    width: 475px;
+    height: auto;
+    opacity: 1;
+  }
+
+   /* /////////////////////////////////// GRAPHICS PAGE CONFIGS ///////////////////////////////////*/
+  
+   #buttonsimg{
+    width: 250px;
+    height: auto;
+  }
+
+  #figureimg{
+    width: 250px;
+    height: auto;
+  }
+
+  

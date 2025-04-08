@@ -1,0 +1,33 @@
+
+nav{
+    background-color: green;
+}
+.container {
+    background-color: red;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12fr, 12fr); /* 12 columns */
+    gap: 1rem; /* Adjust as needed */
+  }
+  
+  .row-4 {
+    background-color: purple;
+    display: grid;
+    grid-template-columns: 4fr; /* Stack columns vertically by default */
+  }
+  
+  .col-12 {
+    background-color: blue;
+    grid-column: 12fr; /* Full width column */
+  }
+  
+  .col-6 {
+    background-color: orange;
+    grid-column: span 6; /* Half width column */
+  }
+  
+  .col-4 {
+    background-color: yellow;
+    grid-column: span 4; /* One-third width column */
+  }

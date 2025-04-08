@@ -1,0 +1,53 @@
+
+/* Need to put root colour hexes here*/
+/* Need to put typeface config here*/
+.navbar {
+    background-color: green;
+    padding: 30px 0 30px 0;
+    margin: 0 auto;
+    width: 90%;
+    position: sticky;
+    display: block;
+    top: 0;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: green;
+    padding: 30px 0 30px 0;
+    margin: 0 auto;
+    width: 90%;
+    bottom: 0;
+}
+
+.container {
+    background-color: red;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 1rem; /* Adjust as needed */
+  }
+
+
+  .page-title-card {
+    background-color: blue;
+    display: grid;
+    grid-column: 1/span 4; /* Full width column */
+    grid-row: 1fr;
+  }
+
+  .quarter-left-card {
+    background-color: yellow;
+    display: grid;
+    grid-column: 1/span 2; /* Full width column */
+    grid-row: 1fr;
+  }
+
+  .quarter-right-card {
+    background-color: yellow;
+    display: grid;
+    grid-column: 1/span 2; /* Full width column */
+    grid-row: 1fr;
+  }
